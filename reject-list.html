@@ -4,7 +4,7 @@
 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-		<title>DreamsEstate</title>
+		<title>Pet</title>
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -112,13 +112,15 @@
 													</div>
 													<div class="banner-property-grid">
 														<select class="select">
-															<option value="0">Property Type</option>
-															<option value="1" >Buy Property</option>
-															<option value="2" >Rent Property</option>
+															<option value="0"> Type</option>
+															<option value="1" >Cat</option>
+															<option value="2" >Dog</option>
+															<option>Hamster</option>
+												<option>Rat</option>
 														</select>
 													</div>
 													<div class="banner-property-grid">
-														<input type="email" class="form-control" placeholder="Enter Address">
+														<input type="Location" class="form-control" placeholder="location">
 													</div>
 													<div class="banner-property-grid">
 														<input type="text" class="form-control" placeholder="Min Price">
@@ -133,40 +135,11 @@
 											</form>
 										</div>
 									</div>
-									<div class="tab-pane fade" id="rent_property" role="tabpanel" aria-labelledby="rent-property">
-										<div class="banner-tab-property">
-											<form action="#">
-												<div class="banner-property-info">
-													<div class="banner-property-grid">
-														<input type="text" class="form-control" placeholder="Enter Keyword">
-													</div>
-													<div class="banner-property-grid">
-														<select class="select">
-															<option value="0">Property Type</option>
-															<option value="1" >Buy Property</option>
-															<option value="2" >Rent Property</option>
-														</select>
-													</div>
-													<div class="banner-property-grid">
-														<input type="email" class="form-control" placeholder="Enter Address">
-													</div>
-													<div class="banner-property-grid">
-														<input type="text" class="form-control" placeholder="Min Price">
-													</div>
-													<div class="banner-property-grid">
-														<input type="text" class="form-control" placeholder="Max Price">
-													</div>
-													<div class="banner-property-grid">
-														<a href="rent-property-grid.html" class="btn-primary"><span><i class='feather-search'></i></span></a>
-													</div>
-												</div>
-											</form>
-										</div>
-									</div>
+									
 								</div>
 							</div>
 						</div>
-					</div>		
+					</div>	
 <!-- Details -->
 <div class="details-wrap">
 	<div class="detail-user-wrap">
@@ -175,7 +148,13 @@
 		</div>
 		<div class="user-wrap">
 			<div class="user-info-wrap">
-				<div class="col-lg-8">
+
+				
+
+
+
+				<div class="row">
+					<div class="col-md-12">
 					<div class="buy-btn">
 						<span class="buy">Dog</span>
 						<span class="appartment">vaccinated</span>
@@ -185,10 +164,10 @@
 						<p><i class="feather-map-pin"></i> 318-330 S Oakley Blvd, Chicago, IL 60612, USA</p>
 					</div>
 					<div class="page-title">
-						<a href="requrest-details.html" class="btn-primary d-inline-block">Open it</a>
+						<a href="reject-details.html" class="btn-primary d-inline-block">Open it</a>
 					</div>
 			
-
+				</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="latest-update">
@@ -282,8 +261,11 @@
 				</div>
 				
 			</div>								
-			
+			<div class="view-property-btn d-flex justify-content-center"  data-aos="fade-down" data-aos-duration="1000">
+				<a href="reject-list.html" class="btn-primary">View All Properties</a>
+			</div>
 		</div>
+		
 	</div>
 </div>
 
